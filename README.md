@@ -1,1 +1,3 @@
 # Automated-SSH-Brute-Force-Detection-Project
+
+This project implements an automated SSH brute force attack detection system using Microsoft Sentinel in Azure. It collects Linux VM authentication logs via Syslog, analyses them with KQL queries to identify suspicious login patterns, and triggers Logic App playbooks for real-time email alerts. The solution maps to MITRE ATT&CK T1110 (Brute Force) and demonstrates end-to-end SOC workflows from log ingestion to response. Designed for cloud security teams, it highlights SIEM analytics, automation, and threat simulation using tools like Hydra for testing.
